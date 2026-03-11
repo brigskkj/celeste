@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#0b1d4a,#3a4fd1,#8b6cff);
+    color: #f0f0ff;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(#1a237e,#3949ab);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #ff6ec7;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    flex: 1;
+}
+
+h1 {
+    color: #ff6ec7;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-left: 5px solid #ff6ec7;
+    padding-left: 15px;
+}
+
+.game-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.capa-jogo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.lore-text{
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #e0e0ff;
+}
+
+.lore-text strong {
+    color: #ffffff;
+    display: block;
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+
+footer {
+    background: linear-gradient(#1a237e,#0b1d4a);
+    color: #bbb;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 18px;
+    color: #e0e0ff;
+}
+
+.subtitulo-jogo{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
